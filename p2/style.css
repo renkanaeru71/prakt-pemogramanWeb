@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: dimgray;
+  line-height: 1.6;
+}
+
+#navbar-utama {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  background-color: darkblue;
+  padding: 15px 30px 10px;
+  color: white;
+}
+
+.menu-navigasi {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 15px 30px 10px;
+
+}
+
+.menu-navigasi a {
+  color: white;
+}
+
+.kartu-proyek {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+}
+
+.section-hero {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+/* grouping selector */
+
+.link-beranda,
+.link-tentang,
+.link-proyek,
+.link-kontak {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.section-tentang {
+  margin-top: 20px;
+}
